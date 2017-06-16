@@ -1,0 +1,1 @@
+https://www.quandl.com/api/v3/datatables/WIKI/PRICES.json?ticker=AMZN&qopts.columns=date,open&date.gte=20170515&date.lte=20170615&api_key=cfG6Lxrn_4Pg8J8jLodw

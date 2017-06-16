@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>DataIncubatorMilestoneProject</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<title>Milestone_project</title>	
+	</head>
+	<body>
+		<div>
+			<div class=metanav>
+  
+				<h4>
+					Enter stock ticker, data required, and time interval
+				</h4>
+
+ 				<form id='DIMP_getinfo' method='POST' action='figure'>
+
+
+				<p>
+					Ticker: <input type='text' name='ticker'/>
+				</p>
+      
+				<p>
+					Data sets (select all that apply): <br />
+					<input type='checkbox' name='open' value='1' /> Opening <br />
+					<input type='checkbox' name='adj_open' value='1' /> Adj. Opening <br />
+					<input type='checkbox' name='close' value='1' /> Closing <br />
+					<input type='checkbox' name='adj_close' value='1' /> Adj. Closing
+				</p>
+      
+				<p>
+					Time interval: <br />
+					<input type='radio' name='time_interval' value='1' checked/> 1 month
+					<input type='radio' name='time_interval' value='6' /> 6 months
+					<input type='radio' name='time_interval' value='12' /> 1 year <br />
+					<input type='radio' name='time_interval' value='-1' /> Other:
+					Start date=<input type='text' name='startdate'/>
+					End date=<input type='text' name='enddate'/>
+				</p>
+      
+				<p>
+					<input type='submit' value='Submit'/>
+				</p>
+
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
